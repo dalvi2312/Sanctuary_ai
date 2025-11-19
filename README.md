@@ -17,7 +17,7 @@
 - 🔁 Switches to **Specialist Mode** using local LLM runtimes (e.g., Ollama) and specialist models (e.g., MedGemma) for higher-fidelity clinical guidance.  
 - 📞 Detects emergencies and can **automatically call/message** hotlines via Twilio-like integrations.  
 - 🌐 Uses user location (with explicit consent) to provide region-specific resources and contacts.  
-- 🧑‍⚕️ Escalates to professional support workflows when risk is detected — supports human-in-the-loop review.  
+- 🧑‍⚕️ Escalates to professional support workflows when risk is detected & supports human-in-the-loop review.  
 - 🔗 Integrates multiple LLM endpoints (e.g., GPT-4o-mini, Claude-style) to gather diverse insights and cross-check responses.  
 - 🔒 Emphasizes ethical behavior, privacy, and strict handling of personal health information.
 
@@ -55,3 +55,4 @@ uvicorn backend.main:app --reload
 
 # run frontend (example)
 streamlit run frontend.py
+
